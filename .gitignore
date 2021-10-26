@@ -1,0 +1,4 @@
+vendor/*
+config/config.json
+composer.lock
+public/*

@@ -1,0 +1,14 @@
+{
+  "require": {
+    "slim/slim": "^3.12",
+    "google/cloud-storage": "^1.25",
+    "google/cloud-bigquery": "^1.23",
+    "phpcfdi/cfdi-to-json": "^0.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src",
+      "Core\\":"core"    
+    }
+  }
+}
