@@ -2,4 +2,5 @@
 
 //main
 $app->get('/files', App\Controllers\FileController::class.':index');
-$app->get('/files/debug', App\Controllers\FileController::class.':debug');
+$app->get('/files/billing', App\Controllers\FileController::class.':billing');
+

@@ -7,22 +7,19 @@ use PhpCfdi\CfdiToJson\JsonConverter;
 
 final class CfdiTransformer{
 
-  protected $newFolder;
-  protected $currentFolder;
   protected $root;
 
-  public function __construct(string $root, string $folder){
+  public function __construct(string $root){
 
     $this->root = $root;
-    $this->folder = $folder;
 
   }
 
-  public function transform(FileObjectInterface $fileObject):FileObjectInterface{
+  public function transform(FileObjectInterface $fileObject,$folder):FileObjectInterface{
 
     $xmlContent = $fileObject->content();
     $jsonContent = JsonConverter::convertToJson($xmlContent);
-    return new FileObject($this->root,$this->folder,$fileObject->name(),'json',$jsonContent);
+    return new FileObject($this->root,$folder,$fileObject->name(),'json',$jsonContent);
 
   }
   

@@ -1,6 +1,8 @@
 <?php
 
 use Core\Infrastructure\Files\FileManager;
+use Core\Infrastructure\Files\CfdiTransformer;
+
 use Slim\Container;
 
 //mandamos llamar ficheros de configuracion
@@ -13,6 +15,10 @@ $container = new Container(
 
 $container['fm'] = function(Container $container){
   return FileManager::instanciate(ROOT_DIR.'/files');
+};
+
+$container['cfdi-transformer'] = function(Container $container){
+  return new CfdiTransformer(ROOT_DIR.'/files');
 };
 
 //regresamos el fichero con container completo

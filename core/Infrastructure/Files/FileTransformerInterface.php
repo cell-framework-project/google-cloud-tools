@@ -6,6 +6,6 @@ use Core\Infrastructure\Files\FileObjectInterface;
 
 interface FileTransformerInterface{
 
-  public function transform(FileObjectInterface $fileObject):FileObjectInterface;
+  public function transform(FileObjectInterface $fileObject,string $folder):FileObjectInterface;
   
 }

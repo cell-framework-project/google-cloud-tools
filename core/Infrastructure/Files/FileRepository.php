@@ -29,15 +29,13 @@ class FileRepository{
   }
 
   public function exists(string $name):bool{
-    return in_array($name.'.'.$this->extension,$this->list);
+    return in_array($name,$this->list);
   }
 
   public function find(string $name):?FileObjectInterface{
 
     if($this->exists($name)){
-      
       return new FileObject($this->root,$this->folder,$name,$this->extension,null);
-
     }
     else{
       return null;
