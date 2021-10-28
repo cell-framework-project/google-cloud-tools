@@ -15,7 +15,8 @@ final class FileController{
     $this->container = $container;
     $this->fm = $this->container['fm'];
     $this->cfdiTransformer = $this->container['cfdi-transformer'];
-    $this->repository = $this->fm->getRepository('xml-repo','xml','xml');
+    $this->jsonFunnel = $this->container['json-funnel'];
+    $this->xmlRepository = $this->fm->getRepository('xml-repo','xml','xml');
 
   }
 
@@ -23,7 +24,7 @@ final class FileController{
 
     header('Content-Type: application/json');
 
-    echo(json_encode($this->repository->list()));
+    echo(json_encode($this->xmlRepository->list()));
 
   }
 
@@ -31,11 +32,30 @@ final class FileController{
 
     //header('Content-Type: application/json');
     
-    $cfdi_1 = $this->repository->find('cfdi_1');
-    $json_1 = $this->cfdiTransformer->transform($cfdi_1,'json');
+    $xmlCfdi = $this->xmlRepository->find('cfdi_1');
+    $jsonCfdi = $this->cfdiTransformer->transform($xmlCfdi,'json');
 
-    print_r($json_1);
+    echo($jsonCfdi->content());
 
+  }
+
+  public function billingArray(RequestInterface $request, $response){
+
+    header('Content-Type: application/json');
+    
+    $xmlCfdis = $this->xmlRepository->findAll();
+
+    $jsonCfdis=[];
+
+    foreach ($xmlCfdis as $xmlCfdi) {
+      $jsonCfdi = $this->cfdiTransformer->transform($xmlCfdi,'json');
+      $jsonCfdis[]=$jsonCfdi;
+    }
+
+    $jsonCfdiTable = $this->jsonFunnel->union($jsonCfdis,'json_table','json_all_in_one');
+
+    echo($jsonCfdiTable->content());
+  
   }
 
 

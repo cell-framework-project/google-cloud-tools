@@ -2,6 +2,7 @@
 
 use Core\Infrastructure\Files\FileManager;
 use Core\Infrastructure\Files\CfdiTransformer;
+use Core\Infrastructure\Files\JsonFunnel;
 
 use Slim\Container;
 
@@ -19,6 +20,14 @@ $container['fm'] = function(Container $container){
 
 $container['cfdi-transformer'] = function(Container $container){
   return new CfdiTransformer(ROOT_DIR.'/files');
+};
+
+$container['json-funnel'] = function(Container $container){
+  return new JsonFunnel(ROOT_DIR.'/files');
+};
+
+$container['xml-repository'] = function(Container $container){
+  return new JsonFunnel(ROOT_DIR.'/files');
 };
 
 //regresamos el fichero con container completo
