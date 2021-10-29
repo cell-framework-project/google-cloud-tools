@@ -13,10 +13,10 @@ final class FileController{
   public function __construct(ContainerInterface $container){
   
     $this->container = $container;
-    $this->fm = $this->container['fm'];
+    $this->jsonCfdiRepository = $this->container['json-cfdi-repository'];
+    $this->xmlCfdiRepository = $this->container['xml-cfdi-repository'];
     $this->cfdiTransformer = $this->container['cfdi-transformer'];
     $this->jsonFunnel = $this->container['json-funnel'];
-    $this->xmlRepository = $this->fm->getRepository('xml-repo','xml_cfdi','xml');
 
   }
 
