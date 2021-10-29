@@ -22,9 +22,7 @@ class FileManager{
   }
 
   public function getRepository(string $label,string $folder,string $extension):FileRepository{
-
     return FileRepository::instanciate($label,$this->root,$folder,$extension);
-
   }
 
 }

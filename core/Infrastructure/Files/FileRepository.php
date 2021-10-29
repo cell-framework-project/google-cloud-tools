@@ -11,21 +11,17 @@ class FileRepository{
   protected $list=[];
 
   public function __construct(string $root,string $folder, string $extension){
-
     $this->root = $root;
     $this->folder = $folder;
     $this->extension = $extension;
     $this->preloadList();
-
   }
 
   public static function instanciate(string $label, string $root,string $folder,string $extension):self{
-
     if(!isset(self::$instances[$label])){
       self::$instances[$label] = new self($root, $folder, $extension);
     }
     return self::$instances[$label];
-
   }
 
   public function exists(string $name):bool{
@@ -44,15 +40,11 @@ class FileRepository{
   }
 
   public function findAll():array{
-    
     $files=[];
-
     foreach ($this->list as $name) {
       $files[] = $this->find($name);
     }
-
     return $files;
-
   }
 
   protected function preloadList():void{

@@ -26,8 +26,12 @@ $container['json-funnel'] = function(Container $container){
   return new JsonFunnel(ROOT_DIR.'/files');
 };
 
-$container['xml-repository'] = function(Container $container){
-  return new JsonFunnel(ROOT_DIR.'/files');
+$container['xml-cfdi-repository'] = function(Container $container){
+  $container['fm']->getRepository('xml-cfdi','xml_cfdi','xml');
+};
+
+$container['json-cfdi-repository'] = function(Container $container){
+  $container['fm']->getRepository('json-cfdi','json_cfdi','json');
 };
 
 //regresamos el fichero con container completo
