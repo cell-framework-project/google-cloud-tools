@@ -5,16 +5,16 @@ namespace Core\Infrastructure\Files;
 class FileManager{
 
   protected static $instance;
-  protected $root;
+  protected $rootDir;
 
-  public function __construct(string $root){
-    $this->root = $root;
+  public function __construct(string $rootDir,string $configDir){
+    $this->rootDir = $rootDir;
   }
 
-  public static function instanciate(string $root):self{
+  public static function instanciate(string $rootDir,string $configDir):self{
 
     if(!isset(self::$instance)){
-      self::$instance = new self($root);
+      self::$instance = new self($rootDir,$configDir);
     }
 
     return self::$instance;
@@ -22,7 +22,7 @@ class FileManager{
   }
 
   public function getRepository(string $label,string $folder,string $extension):FileRepository{
-    return FileRepository::instanciate($label,$this->root,$folder,$extension);
+    return FileRepository::instanciate($label,$this->rootDir,$folder,$extension);
   }
 
 }

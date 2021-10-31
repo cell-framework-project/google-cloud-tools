@@ -23,14 +23,14 @@ final class FileController{
   public function index(RequestInterface $request, $response){
 
     header('Content-Type: application/json');
-    echo(json_encode($this->xmlRepository->list()));
+    echo(json_encode($this->xmlCfdiRepository->list()));
 
   }
 
   public function billing(RequestInterface $request, $response){
 
     header('Content-Type: application/json');
-    $xmlCfdi = $this->xmlRepository->find('cfdi_1');
+    $xmlCfdi = $this->xmlCfdiRepository->find('cfdi_1');
     $jsonCfdi = $this->cfdiTransformer->transform($xmlCfdi,'json');
     echo($jsonCfdi->content());
 
@@ -39,7 +39,7 @@ final class FileController{
   public function billingArray(RequestInterface $request, $response){
 
     header('Content-Type: application/json');
-    $xmlCfdis = $this->xmlRepository->findAll();
+    $xmlCfdis = $this->xmlCfdiRepository->findAll();
     $jsonCfdis=[];
 
     foreach ($xmlCfdis as $xmlCfdi) {
