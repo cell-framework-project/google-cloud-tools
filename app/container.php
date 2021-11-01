@@ -1,6 +1,7 @@
 <?php
 
 use App\ApplicationService\CfdiTransformService;
+use App\ApplicationService\JsonCfdiFuseService;
 use Core\Infrastructure\Files\FileManager;
 use Core\Infrastructure\Files\CfdiTransformer;
 use Core\Infrastructure\Files\JsonFunnel;
@@ -40,7 +41,7 @@ $container['cfdi-transform-service'] = function(Container $container){
 };
 
 $container['cfdi-fuse-service'] = function(Container $container){
-  return new CfdiTransformService($container['fm'],$container['json-funnel']);
+  return new JsonCfdiFuseService($container['fm'],$container['json-funnel']);
 };
 
 //regresamos el fichero con container completo

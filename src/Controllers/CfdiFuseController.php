@@ -8,21 +8,19 @@ use Psr\Http\Message\ResponseInterface as ResponseInterface;
 
 use Core\Infrastructure\Files\FileObject;
 
-final class CfdiTransformController{
+final class CfdiFuseController{
 
   public function __construct(ContainerInterface $container){
   
     $this->container = $container;
-    $this->cfdiTransformService = $this->container['cfdi-transform-service'];
+    $this->cfdiFuseService = $this->container['cfdi-fuse-service'];
 
   }
 
-  public function transform(RequestInterface $request, $response){
+  public function fuse(RequestInterface $request, $response){
 
-    $this->cfdiTransformService->run([]);
+    $this->cfdiFuseService->run([]);
     
-    return $response->withStatus(201);
-
   }
 
 }

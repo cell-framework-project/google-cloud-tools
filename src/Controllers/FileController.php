@@ -47,7 +47,7 @@ final class FileController{
       $jsonCfdis[]=$jsonCfdi;
     }
 
-    $jsonCfdiTable = $this->jsonFunnel->union($jsonCfdis,'json_table','json_all_in_one');
+    $jsonCfdiTable = $this->jsonFunnel->union($jsonCfdis,'json_cfdi_table','json_cfdi_aio');
     echo($jsonCfdiTable->content());
     
   }
