@@ -49,12 +49,7 @@ final class FileController{
 
     $jsonCfdiTable = $this->jsonFunnel->union($jsonCfdis,'json_table','json_all_in_one');
     echo($jsonCfdiTable->content());
-  }
-
-  public function debug(RequestInterface $request, $response){
-    $className = FileObject::class;
-    $classNameParts = explode('\\',$className);
-    $classNameCamelCase = $classNameParts[count($classNameParts)-1];
+    
   }
 
 }

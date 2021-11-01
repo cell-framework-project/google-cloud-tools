@@ -2,7 +2,7 @@
 
 namespace Core\Infrastructure\Files;
 
-class FileRepository{
+class FileRepository implements FileRepositoryInterface{
 
   protected static $instances=[];
   protected $extension;
@@ -79,6 +79,12 @@ class FileRepository{
 
   public function list():array{
     return $this->list;
+  }
+
+  public function save(FileObjectInterface $fileObject):void{
+    
+    file_put_contents($this->root.'/'.$this->folder.'/'.$fileObject->name().'.'.$this->extension,$fileObject->content());
+
   }
 
 }
