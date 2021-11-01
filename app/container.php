@@ -15,7 +15,7 @@ $container = new Container(
 );
 
 $container['fm'] = function(Container $container){
-  return FileManager::instanciate(ROOT_DIR.'/files',ROOT_DIR.'/config/file_manager');
+  return FileManager::instanciate(ROOT_DIR.'/files');
 };
 
 $container['cfdi-transformer'] = function(Container $container){
@@ -33,6 +33,9 @@ $container['xml-cfdi-repository'] = function(Container $container){
 $container['json-cfdi-repository'] = function(Container $container){
   return $container['fm']->getRepository('json-cfdi','json_cfdi','json');
 };
+
+
+
 
 //regresamos el fichero con container completo
 return $container;

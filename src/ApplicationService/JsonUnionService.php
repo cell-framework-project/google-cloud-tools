@@ -6,9 +6,9 @@ use Core\ApplicationService\JobServiceInterace;
 
 class JsonUnionService implements JobServiceInterace{
 
-  public function __construct(array $toolkit){
+  public function __construct($fm ){
     
-    
+
 
   }
 

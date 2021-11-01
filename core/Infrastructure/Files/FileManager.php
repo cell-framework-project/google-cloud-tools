@@ -2,23 +2,20 @@
 
 namespace Core\Infrastructure\Files;
 
-class FileManager{
+class FileManager implements FileManagerInterface{
 
   protected static $instance;
   protected $rootDir;
 
-  public function __construct(string $rootDir,string $configDir){
+  public function __construct(string $rootDir){
     $this->rootDir = $rootDir;
   }
 
-  public static function instanciate(string $rootDir,string $configDir):self{
-
+  public static function instanciate(string $rootDir):self{
     if(!isset(self::$instance)){
-      self::$instance = new self($rootDir,$configDir);
+      self::$instance = new self($rootDir);
     }
-
     return self::$instance;
-
   }
 
   public function getRepository(string $label,string $folder,string $extension):FileRepository{
