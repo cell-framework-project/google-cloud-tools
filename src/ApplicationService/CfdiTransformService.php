@@ -23,12 +23,14 @@ class CfdiTransformService implements JobServiceInterace{
   }
 
   public function run(array $parameters): void{
-    
+
     $xmlCfdis = $this->xmlCfdiRepository->findAll();
 
     foreach ($xmlCfdis as $xmlCfdi) {
+
       $jsonCfdi = $this->cfdiTransformer->transform($xmlCfdi,'json_cfdi');
       $this->jsonCfdiRepository->save($jsonCfdi);
+
     }
 
   }
