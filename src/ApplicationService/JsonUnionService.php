@@ -3,10 +3,12 @@
 namespace App\ApplicationService;
 
 use Core\ApplicationService\JobServiceInterace;
+use Core\Infrastructure\Files\FileManagerInterface;
+
 
 class JsonUnionService implements JobServiceInterace{
 
-  public function __construct($fm ){
+  public function __construct(FileManagerInterface $fm){
     
 
 
@@ -14,6 +16,8 @@ class JsonUnionService implements JobServiceInterace{
 
   public function run(array $parameters): void{
     
+    
+
   }
 
 }

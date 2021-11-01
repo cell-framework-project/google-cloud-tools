@@ -10,7 +10,7 @@ class JsonFunnel{
     $this->root = $root;
   }
 
-  public function union(array $fileObjects,string $folder, string $name):FileObjectInterface{
+  public function fuse(array $fileObjects,string $folder, string $name):FileObjectInterface{
 
     $contents=[];
 

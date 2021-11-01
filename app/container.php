@@ -39,5 +39,9 @@ $container['cfdi-transform-service'] = function(Container $container){
   return new CfdiTransformService($container['fm'],$container['cfdi-transformer']);
 };
 
+$container['cfdi-fuse-service'] = function(Container $container){
+  return new CfdiTransformService($container['fm'],$container['json-funnel']);
+};
+
 //regresamos el fichero con container completo
 return $container;

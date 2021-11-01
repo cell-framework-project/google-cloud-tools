@@ -1,0 +1,125 @@
+{
+    "xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd",
+    "Version": "3.3",
+    "Serie": "1CDB2",
+    "Folio": "2753",
+    "Fecha": "2021-07-08T13:44:27",
+    "Sello": "ZpGDRGYvamcM30/88YiEYUhxOZWFumXI5CSH13+y3fpESuRlZj/GTA2uZ8D1gZdv6f9kxB5vhkfoLPt+theIuEK/hwsQ0Uf3FnYUvOo7R1yt7cBKyZ7xKbNQDCcX/jTADllHWa36irr/1ER91PAwltvkc9YoqTCk9oANObL/M8Rp3R7NMTZMyJAJsWxDuJWYz5al42XnOKFSBdgKEFnOngZszvHu2LiqWk22I8MBFCpTPCV+bCbOo4mR1bmJYtygDpZsIGubXbVksIVeA12FBtWehSYEamWDjxsPa+zAl2ha3bIsnHLEEER/WuTw3NxQ9sSKz1Q/lUtS9DVwD6m7fQ==",
+    "FormaPago": "06",
+    "NoCertificado": "00001000000410553688",
+    "Certificado": "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",
+    "CondicionesDePago": "Pago en una sola exhibici\u00f3n",
+    "SubTotal": "86.63",
+    "Moneda": "MXN",
+    "Total": "100.49",
+    "TipoDeComprobante": "I",
+    "MetodoPago": "PUE",
+    "LugarExpedicion": "97302",
+    "Emisor": {
+        "Rfc": "ZULA5402038B2",
+        "Nombre": "ADRIAN ZU\u00d1IGA LOERA",
+        "RegimenFiscal": "625"
+    },
+    "Receptor": {
+        "Rfc": "BMI061005NY5",
+        "Nombre": "BANCO MULTIVA SA INSTITUCI\u00d3N DE BANCA M\u00daLTIPLE GRUPO FINANCIERO MULTIVA",
+        "UsoCFDI": "G03"
+    },
+    "Conceptos": {
+        "Concepto": [
+            {
+                "ClaveProdServ": "78111808",
+                "Cantidad": "1",
+                "ClaveUnidad": "E48",
+                "Unidad": "Unidad de servicio",
+                "Descripcion": "Tarifa",
+                "ValorUnitario": "73.53",
+                "Importe": "73.53",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "73.53",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "11.76"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ClaveProdServ": "78111808",
+                "Cantidad": "1",
+                "ClaveUnidad": "XNA",
+                "Unidad": "NO APLICA",
+                "Descripcion": "CUOTA DE SOLICITUD",
+                "ValorUnitario": "11.88",
+                "Importe": "11.88",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "11.88",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "1.90"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ClaveProdServ": "93161600",
+                "Cantidad": "1",
+                "ClaveUnidad": "XNA",
+                "Unidad": "NO APLICA",
+                "Descripcion": "CONTRIBUCI\u00d3N GUBERNAMENTAL: 1.5%",
+                "ValorUnitario": "1.22",
+                "Importe": "1.22",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "1.22",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "0.20"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Impuestos": {
+        "TotalImpuestosTrasladados": "13.86",
+        "Traslados": {
+            "Traslado": [
+                {
+                    "Impuesto": "002",
+                    "TipoFactor": "Tasa",
+                    "TasaOCuota": "0.160000",
+                    "Importe": "13.86"
+                }
+            ]
+        }
+    },
+    "Complemento": [
+        {
+            "TimbreFiscalDigital": {
+                "xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+                "Version": "1.1",
+                "SelloCFD": "ZpGDRGYvamcM30/88YiEYUhxOZWFumXI5CSH13+y3fpESuRlZj/GTA2uZ8D1gZdv6f9kxB5vhkfoLPt+theIuEK/hwsQ0Uf3FnYUvOo7R1yt7cBKyZ7xKbNQDCcX/jTADllHWa36irr/1ER91PAwltvkc9YoqTCk9oANObL/M8Rp3R7NMTZMyJAJsWxDuJWYz5al42XnOKFSBdgKEFnOngZszvHu2LiqWk22I8MBFCpTPCV+bCbOo4mR1bmJYtygDpZsIGubXbVksIVeA12FBtWehSYEamWDjxsPa+zAl2ha3bIsnHLEEER/WuTw3NxQ9sSKz1Q/lUtS9DVwD6m7fQ==",
+                "NoCertificadoSAT": "00001000000504204441",
+                "RfcProvCertif": "CVD110412TF6",
+                "UUID": "217F46FD-D622-4325-90A4-CA718DFEA3EB",
+                "FechaTimbrado": "2021-07-08T13:44:32",
+                "SelloSAT": "ukNSH4zBNiMB10jruuVnqwYttxsyLBofmsjUgoDd0cZQ/PSxk2pPTu+7mRqhnvNiBKIqgtIvXAmaRgTA9DjWJktWTMBHwI4jNNRW8A6sJmGHCNSa07Fptq4ELvodprycanZ33ah8yrSkEXyHdZU2ndleml7+GIZLTj8xD1XkBBcJ0EOLsR3f0c+cbvSvTtZsxEw39Xr1gIAh10YbKCiTzTmc0XmeAmhLjv3tTUYYoUo51gY1J5NR9W1HxjCx+NYV8QETze32tUxXPosxys3zPrBhy5kOH1Gd/kQQjmW82SxiRz/CXJ/2cWzYkLsm+oYh8e/gFVsN5D9xrA6F2k+KtA=="
+            }
+        }
+    ]
+}
