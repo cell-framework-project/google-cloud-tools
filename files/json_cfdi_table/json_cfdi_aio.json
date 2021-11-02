@@ -1,0 +1,283 @@
+[{
+    "xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd",
+    "Version": "3.3",
+    "Serie": "B",
+    "Folio": "679",
+    "Fecha": "2021-07-15T15:38:50",
+    "Sello": "axaVJ5ZBdSSsFxsTb+mX0oGqoZyhawoaks4gj8hy1RQBC2DwYcS+q/++IrDjVi0HrHvKRS7Pp2ceKU1pJy2iLgYWujEBAQ/ZOrvDd0IhEB0AZ+Z0gomQRzjBipUy5G2fhSiIOBC2lGlkP2pnaUfUsZybqeXIbUAFC7sywXSv+6CuIGUrcg5SMQbD/O5+1Nx+xaSqpt5M37tqVQTnyq2Xa8EjIAptNUZ9IK3F45iJyJK+LrpoIbJi82wPpp25ffHHktbYP4SOy69bkDvoE5dMjXdzgd55Z8EDTzKAzMv62hQ7iYKJvjj8n2OQz9jEDH3DGp1NmYrzlMk9gTILbOD86w==",
+    "FormaPago": "99",
+    "NoCertificado": "00001000000409486073",
+    "Certificado": "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",
+    "SubTotal": "40000.00",
+    "Moneda": "MXN",
+    "Total": "46400.00",
+    "TipoDeComprobante": "I",
+    "MetodoPago": "PPD",
+    "LugarExpedicion": "20235",
+    "Emisor": {
+        "Rfc": "CCR131220MNA",
+        "Nombre": "CWVL CONSULTORIA PARA EL RETIRO S.C.",
+        "RegimenFiscal": "623"
+    },
+    "Receptor": {
+        "Rfc": "BMI061005NY5",
+        "Nombre": "BANCO MULTIVA SOCIEDAD ANONIMA, INSTITUCION DE BANCA MULTIPLE, GRUPO FINANCIERO MULTIVA",
+        "UsoCFDI": "G03"
+    },
+    "Conceptos": {
+        "Concepto": [
+            {
+                "ClaveProdServ": "80141601",
+                "Cantidad": "1",
+                "ClaveUnidad": "E48",
+                "Unidad": "Servicio",
+                "Descripcion": "Comisi\u00f3n complementaria /  Junio 2021",
+                "ValorUnitario": "40000.00",
+                "Importe": "40000.00",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "40000.00",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "6400.00"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Impuestos": {
+        "TotalImpuestosTrasladados": "6400.00",
+        "Traslados": {
+            "Traslado": [
+                {
+                    "Impuesto": "002",
+                    "TipoFactor": "Tasa",
+                    "TasaOCuota": "0.160000",
+                    "Importe": "6400.00"
+                }
+            ]
+        }
+    },
+    "Complemento": [
+        {
+            "TimbreFiscalDigital": {
+                "xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+                "Version": "1.1",
+                "SelloCFD": "axaVJ5ZBdSSsFxsTb+mX0oGqoZyhawoaks4gj8hy1RQBC2DwYcS+q/++IrDjVi0HrHvKRS7Pp2ceKU1pJy2iLgYWujEBAQ/ZOrvDd0IhEB0AZ+Z0gomQRzjBipUy5G2fhSiIOBC2lGlkP2pnaUfUsZybqeXIbUAFC7sywXSv+6CuIGUrcg5SMQbD/O5+1Nx+xaSqpt5M37tqVQTnyq2Xa8EjIAptNUZ9IK3F45iJyJK+LrpoIbJi82wPpp25ffHHktbYP4SOy69bkDvoE5dMjXdzgd55Z8EDTzKAzMv62hQ7iYKJvjj8n2OQz9jEDH3DGp1NmYrzlMk9gTILbOD86w==",
+                "NoCertificadoSAT": "00001000000504204441",
+                "RfcProvCertif": "CVD110412TF6",
+                "UUID": "65821F34-6944-42B9-B135-FB9FF4D44CB9",
+                "FechaTimbrado": "2021-07-15T15:38:53",
+                "SelloSAT": "FlkCbKdFPCnFr5wyL35D8EYZc4FzYa9DqXj/b6g3dh0VDwZkzgh0sS/brhIjR75x+wt2JJjxf1WMXeBO9kdRQ1PkMoxkyLHsqz+W/uk/GKlqUCV18GtZe0bD9xZe5cdNJDYjttNBPNryccQwMh0rmU4MNnt9avymKraHXfr6+J08mXZZ/Y6IrkJfFIWYnoCo8y+u1bRvh0MiIB7PLggOjPCN32bD5J5tclqPBFkROHRa8nD0fII37Mlsr87KkrtSWGUsWtAMUxETaUFtlsc+vw6OiJNkio+etNGq87SN6m/cBVW++q1ZJmr6CkxFHyOVq62AU0QJ8atbIWeG2UypxQ=="
+            }
+        }
+    ]
+},{
+    "xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd",
+    "Version": "3.3",
+    "Serie": "1CDB2",
+    "Folio": "2753",
+    "Fecha": "2021-07-08T13:44:27",
+    "Sello": "ZpGDRGYvamcM30/88YiEYUhxOZWFumXI5CSH13+y3fpESuRlZj/GTA2uZ8D1gZdv6f9kxB5vhkfoLPt+theIuEK/hwsQ0Uf3FnYUvOo7R1yt7cBKyZ7xKbNQDCcX/jTADllHWa36irr/1ER91PAwltvkc9YoqTCk9oANObL/M8Rp3R7NMTZMyJAJsWxDuJWYz5al42XnOKFSBdgKEFnOngZszvHu2LiqWk22I8MBFCpTPCV+bCbOo4mR1bmJYtygDpZsIGubXbVksIVeA12FBtWehSYEamWDjxsPa+zAl2ha3bIsnHLEEER/WuTw3NxQ9sSKz1Q/lUtS9DVwD6m7fQ==",
+    "FormaPago": "06",
+    "NoCertificado": "00001000000410553688",
+    "Certificado": "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",
+    "CondicionesDePago": "Pago en una sola exhibici\u00f3n",
+    "SubTotal": "86.63",
+    "Moneda": "MXN",
+    "Total": "100.49",
+    "TipoDeComprobante": "I",
+    "MetodoPago": "PUE",
+    "LugarExpedicion": "97302",
+    "Emisor": {
+        "Rfc": "ZULA5402038B2",
+        "Nombre": "ADRIAN ZU\u00d1IGA LOERA",
+        "RegimenFiscal": "625"
+    },
+    "Receptor": {
+        "Rfc": "BMI061005NY5",
+        "Nombre": "BANCO MULTIVA SA INSTITUCI\u00d3N DE BANCA M\u00daLTIPLE GRUPO FINANCIERO MULTIVA",
+        "UsoCFDI": "G03"
+    },
+    "Conceptos": {
+        "Concepto": [
+            {
+                "ClaveProdServ": "78111808",
+                "Cantidad": "1",
+                "ClaveUnidad": "E48",
+                "Unidad": "Unidad de servicio",
+                "Descripcion": "Tarifa",
+                "ValorUnitario": "73.53",
+                "Importe": "73.53",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "73.53",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "11.76"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ClaveProdServ": "78111808",
+                "Cantidad": "1",
+                "ClaveUnidad": "XNA",
+                "Unidad": "NO APLICA",
+                "Descripcion": "CUOTA DE SOLICITUD",
+                "ValorUnitario": "11.88",
+                "Importe": "11.88",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "11.88",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "1.90"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "ClaveProdServ": "93161600",
+                "Cantidad": "1",
+                "ClaveUnidad": "XNA",
+                "Unidad": "NO APLICA",
+                "Descripcion": "CONTRIBUCI\u00d3N GUBERNAMENTAL: 1.5%",
+                "ValorUnitario": "1.22",
+                "Importe": "1.22",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "1.22",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "0.20"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Impuestos": {
+        "TotalImpuestosTrasladados": "13.86",
+        "Traslados": {
+            "Traslado": [
+                {
+                    "Impuesto": "002",
+                    "TipoFactor": "Tasa",
+                    "TasaOCuota": "0.160000",
+                    "Importe": "13.86"
+                }
+            ]
+        }
+    },
+    "Complemento": [
+        {
+            "TimbreFiscalDigital": {
+                "xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+                "Version": "1.1",
+                "SelloCFD": "ZpGDRGYvamcM30/88YiEYUhxOZWFumXI5CSH13+y3fpESuRlZj/GTA2uZ8D1gZdv6f9kxB5vhkfoLPt+theIuEK/hwsQ0Uf3FnYUvOo7R1yt7cBKyZ7xKbNQDCcX/jTADllHWa36irr/1ER91PAwltvkc9YoqTCk9oANObL/M8Rp3R7NMTZMyJAJsWxDuJWYz5al42XnOKFSBdgKEFnOngZszvHu2LiqWk22I8MBFCpTPCV+bCbOo4mR1bmJYtygDpZsIGubXbVksIVeA12FBtWehSYEamWDjxsPa+zAl2ha3bIsnHLEEER/WuTw3NxQ9sSKz1Q/lUtS9DVwD6m7fQ==",
+                "NoCertificadoSAT": "00001000000504204441",
+                "RfcProvCertif": "CVD110412TF6",
+                "UUID": "217F46FD-D622-4325-90A4-CA718DFEA3EB",
+                "FechaTimbrado": "2021-07-08T13:44:32",
+                "SelloSAT": "ukNSH4zBNiMB10jruuVnqwYttxsyLBofmsjUgoDd0cZQ/PSxk2pPTu+7mRqhnvNiBKIqgtIvXAmaRgTA9DjWJktWTMBHwI4jNNRW8A6sJmGHCNSa07Fptq4ELvodprycanZ33ah8yrSkEXyHdZU2ndleml7+GIZLTj8xD1XkBBcJ0EOLsR3f0c+cbvSvTtZsxEw39Xr1gIAh10YbKCiTzTmc0XmeAmhLjv3tTUYYoUo51gY1J5NR9W1HxjCx+NYV8QETze32tUxXPosxys3zPrBhy5kOH1Gd/kQQjmW82SxiRz/CXJ/2cWzYkLsm+oYh8e/gFVsN5D9xrA6F2k+KtA=="
+            }
+        }
+    ]
+},{
+    "xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd",
+    "Version": "3.3",
+    "Folio": "343024062021",
+    "Fecha": "2021-07-05T07:00:00",
+    "FormaPago": "03",
+    "SubTotal": "24880.74",
+    "Moneda": "MXN",
+    "Total": "28861.66",
+    "MetodoPago": "PUE",
+    "TipoDeComprobante": "I",
+    "LugarExpedicion": "11250",
+    "NoCertificado": "00001000000506931482",
+    "Certificado": "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",
+    "Sello": "G3LPV9RLx+s3b+o4OExl6ajBHU3zWAngBBiv9EOZGB7l+TcPyuMQJ4RBo/G9BmI9YwkdpTtm1kAyI+wZj9n91InzMsPlBfJEJNxEc1Ow5Qv91U8uaawTPVqKu+zPXaBKQNVrKj5ZP3WHk0hUDxqrnsD3erz1eIV0MxHrbDtNNrMvEmxweZgwhJjZS8JCJy7tOKVKUECJZT3Uy8zkzhZ0y/0rhzaML5MFahRcITpQkOwsOjWY4SWrt+kxIjWiohC11lp3T46+elFK4ie4S101aji4e6FV0LfuHHsVqVYRHKSHvdgg1Bl0wdlOfVAuhyGll1lnjELIAmws2WTdNA+UTg==",
+    "Emisor": {
+        "Rfc": "VMC930101JS6",
+        "Nombre": "Valores Mexicanos Casa de Bolsa, S.A. de C.V.",
+        "RegimenFiscal": "601"
+    },
+    "Receptor": {
+        "Rfc": "BMI061005NY5",
+        "Nombre": "BANCO MULTIVA, S.A. I.B.M. F/303-1",
+        "UsoCFDI": "G03"
+    },
+    "Conceptos": {
+        "Concepto": [
+            {
+                "ClaveProdServ": "84121500",
+                "NoIdentificacion": "1",
+                "Cantidad": "1",
+                "ClaveUnidad": "E48",
+                "Unidad": "No aplica",
+                "Descripcion": "Servicios del Periodo 343024",
+                "ValorUnitario": "24880.74",
+                "Importe": "24880.74",
+                "Impuestos": {
+                    "Traslados": {
+                        "Traslado": [
+                            {
+                                "Base": "24880.74",
+                                "Impuesto": "002",
+                                "TipoFactor": "Tasa",
+                                "TasaOCuota": "0.160000",
+                                "Importe": "3980.92"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "Impuestos": {
+        "TotalImpuestosTrasladados": "3980.92",
+        "Traslados": {
+            "Traslado": [
+                {
+                    "Impuesto": "002",
+                    "TipoFactor": "Tasa",
+                    "TasaOCuota": "0.160000",
+                    "Importe": "3980.92"
+                }
+            ]
+        }
+    },
+    "Complemento": [
+        {
+            "TimbreFiscalDigital": {
+                "xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd",
+                "Version": "1.1",
+                "UUID": "5F71CA1E-5961-E74A-B2C9-78E64A6933E3",
+                "FechaTimbrado": "2021-07-05T13:56:16",
+                "RfcProvCertif": "SCD110105654",
+                "SelloCFD": "G3LPV9RLx+s3b+o4OExl6ajBHU3zWAngBBiv9EOZGB7l+TcPyuMQJ4RBo/G9BmI9YwkdpTtm1kAyI+wZj9n91InzMsPlBfJEJNxEc1Ow5Qv91U8uaawTPVqKu+zPXaBKQNVrKj5ZP3WHk0hUDxqrnsD3erz1eIV0MxHrbDtNNrMvEmxweZgwhJjZS8JCJy7tOKVKUECJZT3Uy8zkzhZ0y/0rhzaML5MFahRcITpQkOwsOjWY4SWrt+kxIjWiohC11lp3T46+elFK4ie4S101aji4e6FV0LfuHHsVqVYRHKSHvdgg1Bl0wdlOfVAuhyGll1lnjELIAmws2WTdNA+UTg==",
+                "NoCertificadoSAT": "00001000000502000436",
+                "SelloSAT": "HJAavizr6AnZnYc7AFjygwUsvZOr6Mw7eq+QcaEvMqaOQjoqk53E2zaFZacrDZM41Vgz9zCAUzVw9/2+wnDgej0SCoHP4MWSrFHTfrBF33jeTmtFZ5j83U/E2ZWF7+qG35h0OKXuweKTGM3QdVXs70AdrjZXYDmMqQCMKyJgm/sYDLlN/VY1CKwBmBgu4EclxOqsYrOnAj9y/1q/mQmoB3mhcXmEifUrrtB/8ozIupzRtjYZJwHRBLkZ4EAq4Qiny7jNRs12jiJaT+gqGd+AyV6D1UAe3BgcDAOvYaJFYcXwtShJ/sxP+bEk4R6xMAtzUdWBynmZ91IjKbu6Aujzqg=="
+            }
+        }
+    ]
+}]

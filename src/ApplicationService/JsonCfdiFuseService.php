@@ -23,11 +23,8 @@ class JsonCfdiFuseService implements JobServiceInterace{
   public function run(array $parameters): void{
     
     $jsonCfdis = $this->jsonCfdiRepository->findAll();
-
     $jsonCfdiTable = $this->jsonFunnel->fuse($jsonCfdis,'json_cfdi_table','json_cfdi_aio');
-
-    print_r($jsonCfdiTable);
-
+    $this->jsonCfdiTableRepository->save($jsonCfdiTable);
     
   }
 
