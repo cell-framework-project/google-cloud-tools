@@ -1,6 +1,7 @@
 <?php
 
 namespace Core\Infrastructure\Files;
+use Core\Infrastructure\Files\FileRepositoryInterface;
 
 class FileManager implements FileManagerInterface{
 
@@ -18,7 +19,7 @@ class FileManager implements FileManagerInterface{
     return self::$instance;
   }
 
-  public function getRepository(string $label,string $folder,string $extension):FileRepository{
+  public function getRepository(string $label,string $folder,string $extension):FileRepositoryInterface{
     return FileRepository::instanciate($label,$this->rootDir,$folder,$extension);
   }
 

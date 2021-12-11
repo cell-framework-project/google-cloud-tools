@@ -3,17 +3,17 @@
 namespace App\ApplicationService;
 
 use Core\ApplicationService\JobServiceInterace;
-use Core\Infrastructure\Files\CfdiTransformer;
+use Core\Infrastructure\Files\CfdiConverter;
 use Core\Infrastructure\Files\FileManagerInterface;
 
-class CfdiTransformService implements JobServiceInterace{
+class CfdiConvertService implements JobServiceInterace{
 
   protected $fm;
   protected $cfdiTransformer;
   protected $xmlCfdiRepository;
   protected $jsonCfdiRepository;
 
-  public function __construct(FileManagerInterface $fm,CfdiTransformer $cfdiTransformer){
+  public function __construct(FileManagerInterface $fm,CfdiConverter $cfdiTransformer){
     
     $this->fm = $fm;
     $this->xmlCfdiRepository = $this->fm->getRepository('xml-cfdi','xml_cfdi','xml');
@@ -28,7 +28,7 @@ class CfdiTransformService implements JobServiceInterace{
 
     foreach ($xmlCfdis as $xmlCfdi) {
 
-      $jsonCfdi = $this->cfdiTransformer->transform($xmlCfdi,'json_cfdi');
+      $jsonCfdi = $this->cfdiTransformer->convert($xmlCfdi,'json_cfdi');
       $this->jsonCfdiRepository->save($jsonCfdi);
 
     }

@@ -4,10 +4,21 @@ namespace Core\Infrastructure\Files;
 
 class JsonFunnel{
 
-  protected $root;
+  protected $rootDir;
 
-  public function __construct(string $root){
-    $this->root = $root;
+  protected static $instance=null;
+
+  public static function instanciate(string $rootDir):self{
+
+    if(!isset(self::$instance)){
+      self::$instance = new self($rootDir);
+    }
+    return self::$instance;
+
+  }
+
+  public function __construct(string $rootDir){
+    $this->rootDir = $rootDir;
   }
 
   public function fuse(array $fileObjects,string $folder, string $name):FileObjectInterface{
@@ -20,7 +31,7 @@ class JsonFunnel{
     }
 
     $jsonTable = '['.implode(',',$contents).']';
-    return new FileObject($this->root,$folder,$name,'json',$jsonTable);
+    return new FileObject($this->rootDir,$folder,$name,'json',$jsonTable);
 
   }
 

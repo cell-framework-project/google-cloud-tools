@@ -1,9 +1,9 @@
 <?php
 
-use App\ApplicationService\CfdiTransformService;
+use App\ApplicationService\CfdiConvertService;
 use App\ApplicationService\JsonCfdiFuseService;
 use Core\Infrastructure\Files\FileManager;
-use Core\Infrastructure\Files\CfdiTransformer;
+use Core\Infrastructure\Files\CfdiConverter;
 use Core\Infrastructure\Files\JsonFunnel;
 
 use Slim\Container;
@@ -16,28 +16,22 @@ $container = new Container(
   $app_config
 );
 
+//infraestructuras
 $container['fm'] = function(Container $container){
   return FileManager::instanciate(ROOT_DIR.'/files');
 };
 
-$container['cfdi-transformer'] = function(Container $container){
-  return new CfdiTransformer(ROOT_DIR.'/files');
+$container['cfdi-converter'] = function(Container $container){
+  return CfdiConverter::instanciate(ROOT_DIR.'/files');
 };
 
 $container['json-funnel'] = function(Container $container){
-  return new JsonFunnel(ROOT_DIR.'/files');
+  return JsonFunnel::instanciate(ROOT_DIR.'/files');
 };
 
-$container['xml-cfdi-repository'] = function(Container $container){
-  return $container['fm']->getRepository('xml-cfdi','xml_cfdi','xml');
-};
-
-$container['json-cfdi-repository'] = function(Container $container){
-  return $container['fm']->getRepository('json-cfdi','json_cfdi','json');
-};
-
+//servicios de aplicación
 $container['cfdi-transform-service'] = function(Container $container){
-  return new CfdiTransformService($container['fm'],$container['cfdi-transformer']);
+  return new CfdiConvertService($container['fm'],$container['cfdi-converter']);
 };
 
 $container['cfdi-fuse-service'] = function(Container $container){

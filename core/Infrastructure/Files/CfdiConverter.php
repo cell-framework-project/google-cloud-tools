@@ -5,7 +5,7 @@ namespace Core\Infrastructure\Files;
 use Core\Infrastructure\Files\FileObjectInterface;
 use PhpCfdi\CfdiToJson\JsonConverter;
 
-final class CfdiTransformer{
+final class CfdiConverter{
 
   protected $root;
   protected static $instance=null;
@@ -24,7 +24,7 @@ final class CfdiTransformer{
     $this->root = $root;
   }
 
-  public function transform(FileObjectInterface $fileObject,$folder):FileObjectInterface{
+  public function convert(FileObjectInterface $fileObject,$folder):FileObjectInterface{
 
     $xmlContent = $fileObject->content();
     $jsonContent = JsonConverter::convertToJson($xmlContent);
